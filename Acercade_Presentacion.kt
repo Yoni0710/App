@@ -1,0 +1,13 @@
+package com.example.app_academiaticinf
+
+import android.os.Bundle
+import android.support.v4.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+
+class Acercade_Presentacion : Fragment(){
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        return inflater.inflate(R.layout.fragment_acercade,container,false)
+    }
+}
